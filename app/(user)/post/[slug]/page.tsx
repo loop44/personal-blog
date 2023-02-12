@@ -44,7 +44,7 @@ const Post = async ({ params: { slug } }: Props) => {
               <div>
                 <h1 className="text-4xl font-extrabold">{post.title}</h1>
                 <p>
-                  {new Date(post._createdAt).toLocaleDateString('en-US', {
+                  {new Date(post.publishedAt).toLocaleDateString('ru-RU', {
                     day: 'numeric',
                     month: 'long',
                     year: 'numeric'
