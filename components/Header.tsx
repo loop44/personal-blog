@@ -21,7 +21,7 @@ const Header = () => (
         className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#f7ab0a] flex items-center rounded-full text-center"
         target="_blank"
       >
-        Follow me on Github
+        Я на Github
       </Link>
     </div>
   </header>

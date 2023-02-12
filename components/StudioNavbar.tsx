@@ -8,7 +8,7 @@ const StudioNavbar = (props: any) => (
     <div className="flex items-center justify-between p-5">
       <Link href="/" className="text-[#f7ab0a] flex items-center">
         <ArrowUturnLeftIcon className="h-6 w-6 text-[#f7ab0a] mr-2" />
-        Go to website
+        Обратно на сайт
       </Link>
     </div>
     {/* eslint-disable-next-line react/destructuring-assignment */}

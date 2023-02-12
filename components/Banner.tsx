@@ -3,13 +3,13 @@ const Banner = () => (
     <div>
       <h1 className="text-7xl">LOOP&apos;s Daily Blog</h1>
       <h2 className="mt-5 md:mt-2">
-        Welcome to{' '}
-        <span className="underline decoration-4 decoration-[#f7ab0a]">Every Developers</span>{' '}
-        favorite blog in Devosphere
+        Добро пожалоть на{' '}
+        <span className="underline decoration-4 decoration-[#f7ab0a]">самый классный</span> личный
+        блог в интернете
       </h2>
     </div>
     <p className="mt-5 md:mt-2 text-gray-400 max-w-sm">
-      New product features | The latest in technology | The weekly debug nightmares & More!
+      Программирование и разработка | Последние новости технологий & многое другое!
     </p>
   </div>
 );
