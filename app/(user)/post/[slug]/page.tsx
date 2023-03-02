@@ -39,7 +39,7 @@ const Post = async ({ params: { slug } }: Props) => {
             />
           </div>
 
-          <section className="p-5 bg-[#f7ab0a] w-full">
+          <section className="p-5 bg-[#91650a] w-full">
             <div className="flex flex-col md:flex-row justify-between gap-y-5">
               <div>
                 <h1 className="text-4xl font-extrabold">{post.title}</h1>
