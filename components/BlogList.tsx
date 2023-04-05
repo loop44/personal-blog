@@ -36,7 +36,7 @@ const BlogList = ({ posts }: Props) => (
                   <p className="font-bold">{post.title}</p>
                   <p>
                     {/* eslint-disable-next-line no-underscore-dangle */}
-                    {new Date(post._createdAt).toLocaleDateString('en-US', {
+                    {new Date(post.publishedAt).toLocaleDateString('ru-RU', {
                       day: 'numeric',
                       month: 'long',
                       year: 'numeric'
